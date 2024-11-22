@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(209, 193, 173);
+    font-family: "Nanum Gothic", sans-serif;
+    color: azure;
+}
+
+
+.card{
+    background-color: rgb(40, 38, 38);
+    width: 60vw;
+    height: 70vh;
+    margin: 7% auto;
+    /* padding: 20px; */
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.card img{
+    height: 500px;
+    border-radius: 30px;
+    width: 600px;
+    position: absolute;
+    top: 70px;
+    left: -80px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    width: 50%;
+    max-height: max-content;
+}
+.card-text h2{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.card-text h3{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #a9a7ae;
+}
+.card-text p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #918f95;
+    width: 80%;
+}
+.hero-btn{
+    display: flex;
+    gap: 20px;
+}
+.hero-btn button{
+    width: 220px;
+    height: 60px;
+    border-radius: 45px;
+    background-color: transparent;
+    border: 1px solid azure;
+    color: azure;
+    font-size: 20px;
+    
+}
+
+.hero-btn .btn{
+    background-color: azure;
+    color: rgb(40, 38, 38);
+}
+
+
+/* Responsive */
+
+@media (max-width: 1800px){
+    .card-box{
+    
+    margin: 100px;
+    }
+
+    .card-img{
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+
+    .card img{
+        height: auto;
+        border-radius: 30px;
+        width: 82%;
+        position: absolute;
+        top: -10%;
+        left: 9%;
+        display: block;
+    }
+
+    .card{
+        background-color: rgb(40, 38, 38);
+        width: 45vw;
+        height: 80vh;
+        margin: auto;
+        /* padding: 20px; */
+        border-radius: 30px;
+        display: flex;
+        position: relative;
+        align-items: flex-end;
+        padding: 50px 30px;
+        justify-content: center;
+        
+    }
+    .card-text{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-end; */
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        margin: -30px auto;
+        padding: 15px;
+        
+    }
+    .card-text h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+       
+    }
+    
+    .card-text h3{
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: #a9a7ae;
+        text-align: center;
+    }
+    .card-text p{
+        font-size: 18px;
+        margin-bottom: 50px;
+        color: #918f95;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-btn{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .hero-btn button{
+        width: 220px;
+        height: 60px;
+        border-radius: 45px;
+        background-color: transparent;
+        border: 1px solid azure;
+        color: azure;
+        font-size: 20px;
+        
+    }
+    
+    .hero-btn .btn{
+        background-color: azure;
+        color: rgb(40, 38, 38);
+    }
+    
+    
+
+}
+@media (max-width: 1300px){
+     .card-box{
+    
+    margin: 200px;
+    }
+
+    .card-img{
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+
+    .card img{
+        height: auto;
+        border-radius: 50%;
+        width: 70%;
+        position: absolute;
+        top: -10%;
+        left: 14%;
+        display: block;
+    }
+
+    .card{
+        background-color: rgb(40, 38, 38);
+        width: 40vw;
+        height: 60vh;
+        margin: auto;
+        /* padding: 20px; */
+        border-radius: 30px;
+        display: flex;
+        position: relative;
+        align-items: flex-end;
+        padding: 50px 30px;
+        justify-content: center;
+        
+    }
+    .card-text{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-end; */
+        width: 100%;
+        height: auto;
+        
+    }
+    .card-text h2{
+        font-size: 30px;
+        /* margin-bottom: 50px; */
+        text-align: center;
+       
+    }
+    
+    .card-text h3{
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: #a9a7ae;
+        text-align: center;
+    }
+    .card-text p{
+        font-size: 15px;
+        /* margin-bottom: 50px; */
+        color: #918f95;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-btn{
+        display: flex;
+        gap: 20px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .hero-btn button{
+        width: 150px;
+        height: 40px;
+        border-radius: 45px;
+        background-color: transparent;
+        border: 1px solid azure;
+        color: azure;
+        font-size: 15px;
+        
+    }
+    
+    .hero-btn .btn{
+        background-color: azure;
+        color: rgb(40, 38, 38);
+    }
+    
+    
+
+
+}
